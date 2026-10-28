@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Make push keys</title>
+<style>
+  body{font-family:system-ui,sans-serif;max-width:720px;margin:24px auto;padding:0 16px;line-height:1.5;color:#201512}
+  button{font:inherit;padding:10px 18px;border-radius:8px;border:0;background:#b3131a;color:#fff;cursor:pointer}
+  textarea{width:100%;font-family:ui-monospace,monospace;font-size:13px;padding:8px;box-sizing:border-box}
+  .warn{background:#fff3d6;border:1px solid #e0b658;border-radius:8px;padding:10px 14px}
+  h2{margin-top:28px}
+</style>
+</head>
+<body>
+<h1>Make the phone notification keys</h1>
+<p>Open this file on your computer (double-click it). The keys are created inside your browser and are not sent anywhere.</p>
+<button id="go" type="button">Create keys</button>
+
+<div id="out" hidden>
+  <h2>1. Public key</h2>
+  <p>Paste this into <code>public/config.js</code> as <code>VAPID_PUBLIC_KEY</code>, and also save it as the secret <code>VAPID_PUBLIC_KEY</code> in Supabase.</p>
+  <textarea id="pub" rows="3" readonly></textarea>
+  <h2>2. Private key</h2>
+  <p class="warn"><b>Secret.</b> Save it only as the Supabase secret <code>VAPID_PRIVATE_KEY</code>. Never put it in <code>config.js</code>, never upload it with the website, never send it to anyone.</p>
+  <textarea id="priv" rows="2" readonly></textarea>
+</div>
+
+<script>
+function b64url(bytes){var s='';for(var i=0;i<bytes.length;i++)s+=String.fromCharCode(bytes[i]);return btoa(s).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');}
+function fromB64url(s){s=s.replace(/-/g,'+').replace(/_/g,'/');while(s.length%4)s+='=';var r=atob(s),a=new Uint8Array(r.length);for(var i=0;i<r.length;i++)a[i]=r.charCodeAt(i);return a;}
+document.getElementById('go').addEventListener('click',function(){
+  crypto.subtle.generateKey({name:'ECDSA',namedCurve:'P-256'},true,['sign','verify']).then(function(k){
+    return crypto.subtle.exportKey('jwk',k.privateKey);
+  }).then(function(jwk){
+    var x=fromB64url(jwk.x),y=fromB64url(jwk.y),pub=new Uint8Array(65);
+    pub[0]=4;pub.set(x,1);pub.set(y,33);
+    document.getElementById('pub').value=b64url(pub);
+    document.getElementById('priv').value=jwk.d;
+    document.getElementById('out').hidden=false;
+    document.getElementById('go').textContent='Create new keys (the old ones stop working)';
+  }).catch(function(e){alert('Could not create keys: '+e.message);});
+});
+</script>
+</body>
+</html>

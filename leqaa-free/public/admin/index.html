@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#130D0B">
+<title>لوحة التحكم | Dashboard</title>
+<link rel="icon" href="/favicon.png" type="image/png">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Reem+Kufi:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/admin/admin.css">
+</head>
+<body>
+
+<section id="login" class="login">
+  <form id="login-form" class="login-card">
+    <div id="login-mark"></div>
+    <h1 data-i="loginTitle"></h1>
+    <label for="em" data-i="email"></label>
+    <input id="em" type="email" autocomplete="username" required dir="ltr">
+    <label for="pw" data-i="password"></label>
+    <input id="pw" type="password" autocomplete="current-password" required>
+    <p class="err" id="login-err" role="alert"></p>
+    <p class="warn-setup" id="setup-warn" hidden data-i="notConfigured"></p>
+    <button class="btn primary wide" type="submit" data-i="signIn"></button>
+    <button class="link" type="button" id="login-lang"></button>
+  </form>
+</section>
+
+<div id="app" hidden>
+  <header class="bar">
+    <div class="bar-brand"><span id="bar-mark"></span><strong data-i="dashboard"></strong></div>
+    <button class="chip-btn" id="lang" type="button"></button>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button role="tab" data-tab="menu" class="on">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 6h14M5 12h14M5 18h9"/></svg><span data-i="tabMenu"></span>
+    </button>
+    <button role="tab" data-tab="settings">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10l1.5-5h13L20 10M4 10v9h16v-9M4 10c0 1.7 1.3 3 3 3s3-1.3 3-3c0 1.7 1.3 3 3 3s3-1.3 3-3c0 1.7 1.3 3 3 3s3-1.3 3-3"/></svg><span data-i="tabSettings"></span>
+    </button>
+    <button role="tab" data-tab="qr">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h3v3h-3zM20 14v6h-6M17 20h0"/></svg><span data-i="tabQR"></span>
+    </button>
+    <button role="tab" data-tab="account">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg><span data-i="tabAccount"></span>
+    </button>
+  </nav>
+
+  <main>
+    <section id="tab-menu" class="tab">
+      <p class="warn" id="warn" hidden></p>
+      <div class="split" id="split" data-view="cats">
+        <aside class="pane-cats" id="pane-cats">
+          <div class="seg" id="sec-seg" role="tablist">
+            <button type="button" role="tab" data-sec="restaurant"></button>
+            <button type="button" role="tab" data-sec="cafe"></button>
+          </div>
+          <label class="search">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l5 5"/></svg>
+            <input id="q" type="search" data-ph="searchPh" autocomplete="off" enterkeyhint="search">
+          </label>
+          <ul id="catlist" class="catlist"></ul>
+          <button class="btn wide" id="add-cat" type="button"></button>
+        </aside>
+        <section class="pane-items" id="catedit"></section>
+      </div>
+    </section>
+
+    <section id="tab-settings" class="tab" hidden>
+      <form id="settings-form" class="stack">
+        <div class="card form">
+          <h2 data-i="basicInfo"></h2>
+          <label><span data-i="nameAr"></span><input id="s-nameAr" dir="rtl"></label>
+          <label><span data-i="taglineAr"></span><input id="s-taglineAr" dir="rtl"></label>
+          <label><span data-i="addressAr"></span><input id="s-addressAr" dir="rtl"></label>
+          <label><span data-i="phones"></span><textarea id="s-phones" rows="3" dir="ltr" inputmode="tel"></textarea></label>
+          <label><span data-i="complaintsLbl"></span><input id="s-complaints" dir="ltr" inputmode="tel"></label>
+        </div>
+        <div class="card form">
+          <h2 data-i="ordersTitle"></h2>
+          <label class="sw row-sw"><input type="checkbox" id="s-ordering"><i></i><span data-i="orderingLbl"></span></label>
+          <label class="sw row-sw"><input type="checkbox" id="s-delivery"><i></i><span data-i="deliveryBtn"></span></label>
+          <label><span data-i="tablesLbl"></span><input id="s-tables" type="number" min="1" max="200" inputmode="numeric"></label>
+        </div>
+        <details class="card form more">
+          <summary data-i="englishInfo"></summary>
+          <label><span data-i="nameEn"></span><input id="s-nameEn" dir="ltr"></label>
+          <label><span data-i="taglineEn"></span><input id="s-taglineEn" dir="ltr"></label>
+          <label><span data-i="addressEn"></span><input id="s-addressEn" dir="ltr"></label>
+          <label><span data-i="currencyAr"></span><input id="s-currAr" dir="rtl"></label>
+          <label><span data-i="currencyEn"></span><input id="s-currEn" dir="ltr"></label>
+        </details>
+        <p class="hint" data-i="settingsHint"></p>
+      </form>
+    </section>
+
+    <section id="tab-qr" class="tab" hidden>
+      <div class="card form qr-controls">
+        <h2 data-i="tabQR"></h2>
+        <p class="hint" data-i="qrHelp"></p>
+        <label><span data-i="siteAddress"></span><input id="qr-base" dir="ltr" inputmode="url"></label>
+        <label><span data-i="tableCount"></span><input id="qr-count" type="number" min="1" max="200" value="10" inputmode="numeric"></label>
+        <div class="row">
+          <button class="btn primary" id="qr-make" type="button" data-i="makeQR"></button>
+          <button class="btn" id="qr-print" type="button" data-i="printQR"></button>
+        </div>
+      </div>
+      <div id="qrgrid" class="qrgrid"></div>
+    </section>
+
+    <section id="tab-account" class="tab" hidden>
+      <div class="stack narrow">
+        <div class="card form">
+          <h2 data-i="mergeTitle"></h2>
+          <p class="hint" data-i="mergeHint"></p>
+          <div class="row">
+            <button class="btn primary" id="merge" type="button" data-i="mergeBtn"></button>
+            <button class="btn danger" id="reset" type="button" data-i="resetBtn"></button>
+          </div>
+        </div>
+        <div class="card form">
+          <h2 data-i="backup"></h2>
+          <p class="hint" data-i="backupHint"></p>
+          <div class="row">
+            <button class="btn" id="exp" type="button" data-i="exportBtn"></button>
+            <button class="btn" id="imp" type="button" data-i="importBtn"></button>
+            <input type="file" id="imp-file" accept="application/json,.json" hidden>
+          </div>
+        </div>
+        <form id="pw-form" class="card form">
+          <h2 data-i="changePw"></h2>
+          <label><span data-i="currentPw"></span><input id="pw-cur" type="password" autocomplete="current-password" required></label>
+          <label><span data-i="newPw"></span><input id="pw-new" type="password" autocomplete="new-password" minlength="8" required></label>
+          <p class="hint" data-i="pwHint"></p>
+          <button class="btn primary" type="submit" data-i="changePwBtn"></button>
+        </form>
+        <button class="btn danger wide" id="logout" type="button" data-i="logout"></button>
+      </div>
+    </section>
+  </main>
+
+  <div id="pubbar" class="pubbar" hidden>
+    <span class="dot" aria-hidden="true"></span>
+    <span id="status" aria-live="polite"></span>
+    <button class="btn primary" id="publish" type="button" data-i="publish"></button>
+  </div>
+</div>
+
+<!-- item editor (bottom sheet on phones) -->
+<dialog id="dlg" class="sheet">
+  <form id="item-form" method="dialog" class="sheet-in">
+    <div class="sheet-head">
+      <h2 id="dlg-title"></h2>
+      <button class="icon-btn" type="button" id="f-x" data-aria="cancel"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    </div>
+    <div class="sheet-body">
+      <label><span data-i="itemAr"></span><input id="f-nameAr" dir="rtl" required enterkeyhint="next"></label>
+
+      <fieldset>
+        <legend data-i="prices"></legend>
+        <div id="f-prices"></div>
+        <div class="presets" id="f-presets"></div>
+        <button class="btn small" type="button" id="f-addprice" data-i="addPrice"></button>
+        <p class="hint" data-i="priceHint"></p>
+      </fieldset>
+
+      <div class="sw-pair">
+        <label class="sw row-sw"><input type="checkbox" id="f-avail"><i></i><span data-i="availableNow"></span></label>
+        <label class="sw row-sw"><input type="checkbox" id="f-vis"><i></i><span data-i="showOnMenu"></span></label>
+      </div>
+
+      <label><span data-i="category"></span><select id="f-cat"></select></label>
+      <label><span data-i="badge"></span>
+        <select id="f-badge"><option value="" data-i="badgeNone"></option><option value="new" data-i="badgeNew"></option><option value="popular" data-i="badgePopular"></option><option value="spicy" data-i="badgeSpicy"></option></select>
+      </label>
+
+      <fieldset>
+        <legend data-i="photo"></legend>
+        <div class="photo">
+          <img id="f-img" alt="" hidden>
+          <div>
+            <input type="file" id="f-file" accept="image/png,image/jpeg,image/webp">
+            <button class="btn small" type="button" id="f-rmimg" data-i="removePhoto"></button>
+            <p class="hint" id="f-imgmsg"></p>
+          </div>
+        </div>
+      </fieldset>
+
+      <details class="more">
+        <summary data-i="moreInfo"></summary>
+        <label><span data-i="itemEn"></span><input id="f-nameEn" dir="ltr"></label>
+        <label><span data-i="descAr"></span><input id="f-descAr" dir="rtl"></label>
+        <label><span data-i="descEn"></span><input id="f-descEn" dir="ltr"></label>
+      </details>
+
+      <button class="btn danger wide" type="button" id="f-del" data-i="delItem"></button>
+    </div>
+    <div class="sheet-foot">
+      <button class="btn" type="button" id="f-cancel" data-i="cancel"></button>
+      <button class="btn primary grow" type="submit" data-i="saveItem"></button>
+    </div>
+  </form>
+</dialog>
+
+<!-- category editor -->
+<dialog id="cdlg" class="sheet">
+  <div class="sheet-in">
+    <div class="sheet-head">
+      <h2 data-i="editCat"></h2>
+      <button class="icon-btn" type="button" id="c-x" data-aria="done"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    </div>
+    <div class="sheet-body">
+      <label><span data-i="catAr"></span><input id="cat-ar" dir="rtl"></label>
+      <label><span data-i="catEn"></span><input id="cat-en" dir="ltr"></label>
+      <label><span data-i="sectionLbl"></span><select id="cat-sec"></select></label>
+      <label class="sw row-sw"><input type="checkbox" id="cat-vis"><i></i><span data-i="showCat"></span></label>
+      <div class="row">
+        <button class="btn" type="button" id="c-up"></button>
+        <button class="btn" type="button" id="c-down"></button>
+      </div>
+      <button class="btn danger wide" type="button" id="c-del" data-i="delCat"></button>
+    </div>
+    <div class="sheet-foot">
+      <button class="btn primary grow" type="button" id="c-done" data-i="done"></button>
+    </div>
+  </div>
+</dialog>
+
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="/config.js"></script>
+<script src="/api.js"></script>
+<script src="/logo.js"></script>
+<script src="/admin/admin.js"></script>
+</body>
+</html>

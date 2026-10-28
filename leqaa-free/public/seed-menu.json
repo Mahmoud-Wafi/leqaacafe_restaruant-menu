@@ -1,0 +1,5857 @@
+{
+ "settings": {
+  "name": {
+   "ar": "مطعم وكافيه لقاء",
+   "en": "LEQAA Restaurant & Cafe"
+  },
+  "tagline": {
+   "ar": "مطعم وكافيه للعائلات",
+   "en": "Family restaurant & cafe"
+  },
+  "phones": [
+   "01555888894",
+   "01122322116",
+   "01050500172"
+  ],
+  "complaints": "01002450004",
+  "address": {
+   "ar": "البحيرة - أبو المطامير - شارع الشعراوي - أمام الجنينة - عند الحصان",
+   "en": "Beheira - Abu al-Matamir - El-Sharawy St. - opposite the garden - near the horse statue"
+  },
+  "currencyNote": {
+   "ar": "الأسعار بالجنيه المصري",
+   "en": "Prices in Egyptian pounds (EGP)"
+  },
+  "delivery": true,
+  "ordering": true,
+  "tables": 30
+ },
+ "categories": [
+  {
+   "id": "c3a",
+   "section": "restaurant",
+   "name": {
+    "ar": "الكريب",
+    "en": "Crepe"
+   },
+   "visible": true,
+   "items": [
+    {
+     "id": "i1",
+     "name": {
+      "ar": "لحوم",
+      "en": "Beef"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "عادي",
+        "en": "Regular"
+       },
+       "price": 110
+      },
+      {
+       "label": {
+        "ar": "كونو",
+        "en": "Cone"
+       },
+       "price": 130
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i2",
+     "name": {
+      "ar": "ميكس فراخ",
+      "en": "Mixed Chicken"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "عادي",
+        "en": "Regular"
+       },
+       "price": 110
+      },
+      {
+       "label": {
+        "ar": "كونو",
+        "en": "Cone"
+       },
+       "price": 130
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i3",
+     "name": {
+      "ar": "زنجر",
+      "en": "Zinger"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "عادي",
+        "en": "Regular"
+       },
+       "price": 100
+      },
+      {
+       "label": {
+        "ar": "كونو",
+        "en": "Cone"
+       },
+       "price": 120
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i4",
+     "name": {
+      "ar": "شاورما",
+      "en": "Shawarma"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "عادي",
+        "en": "Regular"
+       },
+       "price": 100
+      },
+      {
+       "label": {
+        "ar": "كونو",
+        "en": "Cone"
+       },
+       "price": 120
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i5",
+     "name": {
+      "ar": "كرسبي",
+      "en": "Crispy"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "عادي",
+        "en": "Regular"
+       },
+       "price": 100
+      },
+      {
+       "label": {
+        "ar": "كونو",
+        "en": "Cone"
+       },
+       "price": 120
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i6",
+     "name": {
+      "ar": "فاهيتا",
+      "en": "Fajita"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "عادي",
+        "en": "Regular"
+       },
+       "price": 110
+      },
+      {
+       "label": {
+        "ar": "كونو",
+        "en": "Cone"
+       },
+       "price": 120
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i7",
+     "name": {
+      "ar": "سجق",
+      "en": "Sausage"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "عادي",
+        "en": "Regular"
+       },
+       "price": 100
+      },
+      {
+       "label": {
+        "ar": "كونو",
+        "en": "Cone"
+       },
+       "price": 120
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i8",
+     "name": {
+      "ar": "بسطرمة",
+      "en": "Pastrami"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "عادي",
+        "en": "Regular"
+       },
+       "price": 110
+      },
+      {
+       "label": {
+        "ar": "كونو",
+        "en": "Cone"
+       },
+       "price": 130
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i9",
+     "name": {
+      "ar": "لحم مفروم",
+      "en": "Minced Beef"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "عادي",
+        "en": "Regular"
+       },
+       "price": 100
+      },
+      {
+       "label": {
+        "ar": "كونو",
+        "en": "Cone"
+       },
+       "price": 120
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ia",
+     "name": {
+      "ar": "جمبري",
+      "en": "Shrimp"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "عادي",
+        "en": "Regular"
+       },
+       "price": 140
+      },
+      {
+       "label": {
+        "ar": "كونو",
+        "en": "Cone"
+       },
+       "price": 160
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ib",
+     "name": {
+      "ar": "شيش",
+      "en": "Shish"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "عادي",
+        "en": "Regular"
+       },
+       "price": 100
+      },
+      {
+       "label": {
+        "ar": "كونو",
+        "en": "Cone"
+       },
+       "price": 120
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ic",
+     "name": {
+      "ar": "كفتة",
+      "en": "Kofta"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "عادي",
+        "en": "Regular"
+       },
+       "price": 100
+      },
+      {
+       "label": {
+        "ar": "كونو",
+        "en": "Cone"
+       },
+       "price": 120
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "id",
+     "name": {
+      "ar": "سوبر كونز",
+      "en": "Super Cones"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "كونو",
+        "en": "Cone"
+       },
+       "price": 200
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    }
+   ]
+  },
+  {
+   "id": "c3f",
+   "section": "restaurant",
+   "name": {
+    "ar": "الكريب الحلو",
+    "en": "Sweet Crepe"
+   },
+   "visible": true,
+   "items": [
+    {
+     "id": "i3b",
+     "name": {
+      "ar": "نوتيلا",
+      "en": "Nutella"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i3c",
+     "name": {
+      "ar": "لوتس",
+      "en": "Lotus"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i3d",
+     "name": {
+      "ar": "بستاشيو",
+      "en": "Pistachio"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 90
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i3e",
+     "name": {
+      "ar": "نوتيلا ميكس",
+      "en": "Nutella Mix"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 100
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    }
+   ]
+  },
+  {
+   "id": "c40",
+   "section": "restaurant",
+   "name": {
+    "ar": "قسم البيتزا",
+    "en": "Pizza"
+   },
+   "visible": true,
+   "items": [
+    {
+     "id": "ie",
+     "name": {
+      "ar": "مارجريتا",
+      "en": "Margherita"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "وسط",
+        "en": "Medium"
+       },
+       "price": 120
+      },
+      {
+       "label": {
+        "ar": "كبير",
+        "en": "Large"
+       },
+       "price": 150
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "if",
+     "name": {
+      "ar": "ميكس جبن",
+      "en": "Mixed Cheese"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "وسط",
+        "en": "Medium"
+       },
+       "price": 140
+      },
+      {
+       "label": {
+        "ar": "كبير",
+        "en": "Large"
+       },
+       "price": 160
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i10",
+     "name": {
+      "ar": "كرسبي",
+      "en": "Crispy"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "وسط",
+        "en": "Medium"
+       },
+       "price": 130
+      },
+      {
+       "label": {
+        "ar": "كبير",
+        "en": "Large"
+       },
+       "price": 150
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i11",
+     "name": {
+      "ar": "سجق",
+      "en": "Sausage"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "وسط",
+        "en": "Medium"
+       },
+       "price": 130
+      },
+      {
+       "label": {
+        "ar": "كبير",
+        "en": "Large"
+       },
+       "price": 150
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i12",
+     "name": {
+      "ar": "لحمة مفرومة",
+      "en": "Minced Beef"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "وسط",
+        "en": "Medium"
+       },
+       "price": 130
+      },
+      {
+       "label": {
+        "ar": "كبير",
+        "en": "Large"
+       },
+       "price": 150
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i13",
+     "name": {
+      "ar": "بسطرمة",
+      "en": "Pastrami"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "وسط",
+        "en": "Medium"
+       },
+       "price": 140
+      },
+      {
+       "label": {
+        "ar": "كبير",
+        "en": "Large"
+       },
+       "price": 170
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i14",
+     "name": {
+      "ar": "لحوم",
+      "en": "Beef"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "وسط",
+        "en": "Medium"
+       },
+       "price": 150
+      },
+      {
+       "label": {
+        "ar": "كبير",
+        "en": "Large"
+       },
+       "price": 200
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i15",
+     "name": {
+      "ar": "شاورما",
+      "en": "Shawarma"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "وسط",
+        "en": "Medium"
+       },
+       "price": 130
+      },
+      {
+       "label": {
+        "ar": "كبير",
+        "en": "Large"
+       },
+       "price": 160
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i16",
+     "name": {
+      "ar": "تشيكن رانش",
+      "en": "Chicken Ranch"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "وسط",
+        "en": "Medium"
+       },
+       "price": 140
+      },
+      {
+       "label": {
+        "ar": "كبير",
+        "en": "Large"
+       },
+       "price": 170
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i17",
+     "name": {
+      "ar": "تشيكن باربكيو",
+      "en": "Chicken BBQ"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "وسط",
+        "en": "Medium"
+       },
+       "price": 140
+      },
+      {
+       "label": {
+        "ar": "كبير",
+        "en": "Large"
+       },
+       "price": 170
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i18",
+     "name": {
+      "ar": "جمبري",
+      "en": "Shrimp"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "وسط",
+        "en": "Medium"
+       },
+       "price": 200
+      },
+      {
+       "label": {
+        "ar": "كبير",
+        "en": "Large"
+       },
+       "price": 250
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i19",
+     "name": {
+      "ar": "سي فود",
+      "en": "Seafood"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "وسط",
+        "en": "Medium"
+       },
+       "price": 250
+      },
+      {
+       "label": {
+        "ar": "كبير",
+        "en": "Large"
+       },
+       "price": 300
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    }
+   ]
+  },
+  {
+   "id": "c41",
+   "section": "restaurant",
+   "name": {
+    "ar": "قسم الفطير الحادق",
+    "en": "Savory Pies"
+   },
+   "visible": true,
+   "items": [
+    {
+     "id": "i1a",
+     "name": {
+      "ar": "ميكس جبن",
+      "en": "Mixed Cheese"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "إسكندراني",
+        "en": "Alexandrian"
+       },
+       "price": 160
+      },
+      {
+       "label": {
+        "ar": "شرقي",
+        "en": "Sharqi"
+       },
+       "price": 180
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i1b",
+     "name": {
+      "ar": "ميكس لحوم",
+      "en": "Mixed Meat"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "إسكندراني",
+        "en": "Alexandrian"
+       },
+       "price": 200
+      },
+      {
+       "label": {
+        "ar": "شرقي",
+        "en": "Sharqi"
+       },
+       "price": 220
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i1c",
+     "name": {
+      "ar": "بسطرمة",
+      "en": "Pastrami"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "إسكندراني",
+        "en": "Alexandrian"
+       },
+       "price": 200
+      },
+      {
+       "label": {
+        "ar": "شرقي",
+        "en": "Sharqi"
+       },
+       "price": 220
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i1d",
+     "name": {
+      "ar": "كرسبي",
+      "en": "Crispy"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "إسكندراني",
+        "en": "Alexandrian"
+       },
+       "price": 200
+      },
+      {
+       "label": {
+        "ar": "شرقي",
+        "en": "Sharqi"
+       },
+       "price": 220
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i1e",
+     "name": {
+      "ar": "سجق",
+      "en": "Sausage"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "إسكندراني",
+        "en": "Alexandrian"
+       },
+       "price": 190
+      },
+      {
+       "label": {
+        "ar": "شرقي",
+        "en": "Sharqi"
+       },
+       "price": 210
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i1f",
+     "name": {
+      "ar": "لحمة",
+      "en": "Beef"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "إسكندراني",
+        "en": "Alexandrian"
+       },
+       "price": 190
+      },
+      {
+       "label": {
+        "ar": "شرقي",
+        "en": "Sharqi"
+       },
+       "price": 210
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i20",
+     "name": {
+      "ar": "شاورما",
+      "en": "Shawarma"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "إسكندراني",
+        "en": "Alexandrian"
+       },
+       "price": 190
+      },
+      {
+       "label": {
+        "ar": "شرقي",
+        "en": "Sharqi"
+       },
+       "price": 210
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i21",
+     "name": {
+      "ar": "تشيكن",
+      "en": "Chicken"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "إسكندراني",
+        "en": "Alexandrian"
+       },
+       "price": 190
+      },
+      {
+       "label": {
+        "ar": "شرقي",
+        "en": "Sharqi"
+       },
+       "price": 210
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i22",
+     "name": {
+      "ar": "جمبري",
+      "en": "Shrimp"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "إسكندراني",
+        "en": "Alexandrian"
+       },
+       "price": 250
+      },
+      {
+       "label": {
+        "ar": "شرقي",
+        "en": "Sharqi"
+       },
+       "price": 270
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i23",
+     "name": {
+      "ar": "سي فود",
+      "en": "Seafood"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "إسكندراني",
+        "en": "Alexandrian"
+       },
+       "price": 300
+      },
+      {
+       "label": {
+        "ar": "شرقي",
+        "en": "Sharqi"
+       },
+       "price": 320
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i24",
+     "name": {
+      "ar": "لقاء",
+      "en": "Leqaa Special"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "إسكندراني",
+        "en": "Alexandrian"
+       },
+       "price": 300
+      },
+      {
+       "label": {
+        "ar": "شرقي",
+        "en": "Sharqi"
+       },
+       "price": 320
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    }
+   ]
+  },
+  {
+   "id": "c4c",
+   "section": "restaurant",
+   "name": {
+    "ar": "فطائر حلو",
+    "en": "Sweet Pies"
+   },
+   "visible": true,
+   "items": [
+    {
+     "id": "i42",
+     "name": {
+      "ar": "سكر",
+      "en": "Sugar"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i43",
+     "name": {
+      "ar": "كاستر",
+      "en": "Custard"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i44",
+     "name": {
+      "ar": "فور سيزون",
+      "en": "Four Seasons"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 150
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i45",
+     "name": {
+      "ar": "لقاء",
+      "en": "Leqaa Special"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 250
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i46",
+     "name": {
+      "ar": "دبي",
+      "en": "Dubai"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 180
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i47",
+     "name": {
+      "ar": "نوتيلا",
+      "en": "Nutella"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 120
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i48",
+     "name": {
+      "ar": "نوتيلا موز",
+      "en": "Nutella Banana"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 150
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i49",
+     "name": {
+      "ar": "ميكس فواكه",
+      "en": "Mixed Fruit"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 200
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i4a",
+     "name": {
+      "ar": "كنافة",
+      "en": "Kunafa"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 180
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i4b",
+     "name": {
+      "ar": "مشلتت",
+      "en": "Meshaltet"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 200
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    }
+   ]
+  },
+  {
+   "id": "c4d",
+   "section": "restaurant",
+   "name": {
+    "ar": "قسم البرجر",
+    "en": "Burgers"
+   },
+   "visible": true,
+   "items": [
+    {
+     "id": "i2f",
+     "name": {
+      "ar": "كلاسيك",
+      "en": "Classic"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "سنجل",
+        "en": "Single"
+       },
+       "price": 80
+      },
+      {
+       "label": {
+        "ar": "دبل",
+        "en": "Double"
+       },
+       "price": 140
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i30",
+     "name": {
+      "ar": "تشيز",
+      "en": "Cheese"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "سنجل",
+        "en": "Single"
+       },
+       "price": 90
+      },
+      {
+       "label": {
+        "ar": "دبل",
+        "en": "Double"
+       },
+       "price": 150
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i31",
+     "name": {
+      "ar": "ستيك مشوي",
+      "en": "Grilled Steak"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "سنجل",
+        "en": "Single"
+       },
+       "price": 90
+      },
+      {
+       "label": {
+        "ar": "دبل",
+        "en": "Double"
+       },
+       "price": 150
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i32",
+     "name": {
+      "ar": "فاير",
+      "en": "Fire"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "سنجل",
+        "en": "Single"
+       },
+       "price": 100
+      },
+      {
+       "label": {
+        "ar": "دبل",
+        "en": "Double"
+       },
+       "price": 160
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i33",
+     "name": {
+      "ar": "ميجا",
+      "en": "Mega"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "سنجل",
+        "en": "Single"
+       },
+       "price": 100
+      },
+      {
+       "label": {
+        "ar": "دبل",
+        "en": "Double"
+       },
+       "price": 160
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i34",
+     "name": {
+      "ar": "تشيكن تشيز",
+      "en": "Chicken Cheese"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "سنجل",
+        "en": "Single"
+       },
+       "price": 90
+      },
+      {
+       "label": {
+        "ar": "دبل",
+        "en": "Double"
+       },
+       "price": 150
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i35",
+     "name": {
+      "ar": "تشيكن ماشروم",
+      "en": "Chicken Mushroom"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "سنجل",
+        "en": "Single"
+       },
+       "price": 90
+      },
+      {
+       "label": {
+        "ar": "دبل",
+        "en": "Double"
+       },
+       "price": 150
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i36",
+     "name": {
+      "ar": "تشيكن فيليه",
+      "en": "Chicken Fillet"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "سنجل",
+        "en": "Single"
+       },
+       "price": 90
+      },
+      {
+       "label": {
+        "ar": "دبل",
+        "en": "Double"
+       },
+       "price": 150
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i37",
+     "name": {
+      "ar": "تشيكن بولو",
+      "en": "Chicken Polo"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "سنجل",
+        "en": "Single"
+       },
+       "price": 100
+      },
+      {
+       "label": {
+        "ar": "دبل",
+        "en": "Double"
+       },
+       "price": 160
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i38",
+     "name": {
+      "ar": "فرايد بافلو",
+      "en": "Fried Buffalo"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "سنجل",
+        "en": "Single"
+       },
+       "price": 100
+      },
+      {
+       "label": {
+        "ar": "دبل",
+        "en": "Double"
+       },
+       "price": 150
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i39",
+     "name": {
+      "ar": "فرايد برجر",
+      "en": "Fried Burger"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "سنجل",
+        "en": "Single"
+       },
+       "price": 120
+      },
+      {
+       "label": {
+        "ar": "دبل",
+        "en": "Double"
+       },
+       "price": 170
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    }
+   ]
+  },
+  {
+   "id": "c4e",
+   "section": "restaurant",
+   "name": {
+    "ar": "القسم السوري",
+    "en": "Syrian Section"
+   },
+   "visible": true,
+   "items": [
+    {
+     "id": "i25",
+     "name": {
+      "ar": "شاورما",
+      "en": "Shawarma"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "وسط",
+        "en": "Medium"
+       },
+       "price": 70
+      },
+      {
+       "label": {
+        "ar": "كبير",
+        "en": "Large"
+       },
+       "price": 90
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i26",
+     "name": {
+      "ar": "تشيكن كرسبي",
+      "en": "Chicken Crispy"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "وسط",
+        "en": "Medium"
+       },
+       "price": 70
+      },
+      {
+       "label": {
+        "ar": "كبير",
+        "en": "Large"
+       },
+       "price": 90
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i27",
+     "name": {
+      "ar": "بطاطس",
+      "en": "Fries"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "وسط",
+        "en": "Medium"
+       },
+       "price": 25
+      },
+      {
+       "label": {
+        "ar": "كبير",
+        "en": "Large"
+       },
+       "price": 35
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i28",
+     "name": {
+      "ar": "كبدة",
+      "en": "Liver"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "وسط",
+        "en": "Medium"
+       },
+       "price": 35
+      },
+      {
+       "label": {
+        "ar": "كبير",
+        "en": "Large"
+       },
+       "price": 45
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i29",
+     "name": {
+      "ar": "سجق",
+      "en": "Sausage"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "وسط",
+        "en": "Medium"
+       },
+       "price": 70
+      },
+      {
+       "label": {
+        "ar": "كبير",
+        "en": "Large"
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i2a",
+     "name": {
+      "ar": "كفتة",
+      "en": "Kofta"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "وسط",
+        "en": "Medium"
+       },
+       "price": 70
+      },
+      {
+       "label": {
+        "ar": "كبير",
+        "en": "Large"
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i2b",
+     "name": {
+      "ar": "فاهيتا",
+      "en": "Fajita"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "وسط",
+        "en": "Medium"
+       },
+       "price": 75
+      },
+      {
+       "label": {
+        "ar": "كبير",
+        "en": "Large"
+       },
+       "price": 90
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i2c",
+     "name": {
+      "ar": "جمبري",
+      "en": "Shrimp"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "وسط",
+        "en": "Medium"
+       },
+       "price": 90
+      },
+      {
+       "label": {
+        "ar": "كبير",
+        "en": "Large"
+       },
+       "price": 110
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i2d",
+     "name": {
+      "ar": "شيش",
+      "en": "Shish"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "وسط",
+        "en": "Medium"
+       },
+       "price": 80
+      },
+      {
+       "label": {
+        "ar": "كبير",
+        "en": "Large"
+       },
+       "price": 90
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i2e",
+     "name": {
+      "ar": "بطاطس موتزريلا",
+      "en": "Mozzarella Fries"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "وسط",
+        "en": "Medium"
+       },
+       "price": 35
+      },
+      {
+       "label": {
+        "ar": "كبير",
+        "en": "Large"
+       },
+       "price": 45
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    }
+   ]
+  },
+  {
+   "id": "c52",
+   "section": "restaurant",
+   "name": {
+    "ar": "الرول",
+    "en": "Rolls"
+   },
+   "visible": true,
+   "items": [
+    {
+     "id": "i4f",
+     "name": {
+      "ar": "رول لحوم",
+      "en": "Beef Roll"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 150
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i50",
+     "name": {
+      "ar": "رول تشيكن",
+      "en": "Chicken Roll"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 140
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i51",
+     "name": {
+      "ar": "رول جبن",
+      "en": "Cheese Roll"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 130
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    }
+   ]
+  },
+  {
+   "id": "c5a",
+   "section": "restaurant",
+   "name": {
+    "ar": "ركن المكرونة",
+    "en": "Pasta Corner"
+   },
+   "visible": true,
+   "items": [
+    {
+     "id": "i53",
+     "name": {
+      "ar": "كرسبي",
+      "en": "Crispy"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 100
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i54",
+     "name": {
+      "ar": "شاورما",
+      "en": "Shawarma"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 100
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i55",
+     "name": {
+      "ar": "سجق",
+      "en": "Sausage"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 90
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i56",
+     "name": {
+      "ar": "بسطرمة",
+      "en": "Pastrami"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 130
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i57",
+     "name": {
+      "ar": "نجرسكو",
+      "en": "Negresco"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 120
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i58",
+     "name": {
+      "ar": "لحمة",
+      "en": "Beef"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 100
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i59",
+     "name": {
+      "ar": "لحوم",
+      "en": "Meat"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 120
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    }
+   ]
+  },
+  {
+   "id": "c5f",
+   "section": "restaurant",
+   "name": {
+    "ar": "حواوشي اند كالزوني",
+    "en": "Hawawshi & Calzone"
+   },
+   "visible": true,
+   "items": [
+    {
+     "id": "i5b",
+     "name": {
+      "ar": "اسكندراني",
+      "en": "Alexandrian"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i5c",
+     "name": {
+      "ar": "ايطالي",
+      "en": "Italian"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 110
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i5d",
+     "name": {
+      "ar": "لحوم",
+      "en": "Beef"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 120
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i5e",
+     "name": {
+      "ar": "كالزوني",
+      "en": "Calzone"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 120
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    }
+   ]
+  },
+  {
+   "id": "c67",
+   "section": "restaurant",
+   "name": {
+    "ar": "الوجبات",
+    "en": "Meals"
+   },
+   "visible": true,
+   "items": [
+    {
+     "id": "i60",
+     "name": {
+      "ar": "وجبة كرسبي 3",
+      "en": "Crispy Meal (3 pcs)"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 120
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i61",
+     "name": {
+      "ar": "وجبة كرسبي 6",
+      "en": "Crispy Meal (6 pcs)"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 200
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i62",
+     "name": {
+      "ar": "وجبة كرسبي 10",
+      "en": "Crispy Meal (10 pcs)"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 300
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i63",
+     "name": {
+      "ar": "سناك بوكس 3 قطع",
+      "en": "Snack Box (3 pcs)"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 150
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i64",
+     "name": {
+      "ar": "فاميلي بوكس 6 قطع",
+      "en": "Family Box (6 pcs)"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 250
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i65",
+     "name": {
+      "ar": "شيش 3",
+      "en": "Shish (3 skewers)"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 150
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i66",
+     "name": {
+      "ar": "كفتة 3",
+      "en": "Kofta (3 skewers)"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 150
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    }
+   ]
+  },
+  {
+   "id": "c6b",
+   "section": "restaurant",
+   "name": {
+    "ar": "الفتة",
+    "en": "Fatta"
+   },
+   "visible": true,
+   "items": [
+    {
+     "id": "i68",
+     "name": {
+      "ar": "فتة شاورما",
+      "en": "Shawarma Fatta"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 120
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i69",
+     "name": {
+      "ar": "فتة كرسبي",
+      "en": "Crispy Fatta"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 120
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i6a",
+     "name": {
+      "ar": "فتة ميكس",
+      "en": "Mixed Fatta"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 150
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    }
+   ]
+  },
+  {
+   "id": "c6e",
+   "section": "restaurant",
+   "name": {
+    "ar": "القسم العربي",
+    "en": "Arabic Section"
+   },
+   "visible": true,
+   "items": [
+    {
+     "id": "i6c",
+     "name": {
+      "ar": "وجبة شاورما عربي - 6 قطع",
+      "en": "Arabic Shawarma Meal - 6 pcs"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 100
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i6d",
+     "name": {
+      "ar": "وجبة شاورما عربي - 12 قطعة",
+      "en": "Arabic Shawarma Meal - 12 pcs"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 200
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    }
+   ]
+  },
+  {
+   "id": "c78",
+   "section": "restaurant",
+   "name": {
+    "ar": "المقبلات والإضافات",
+    "en": "Sides & Extras"
+   },
+   "visible": true,
+   "items": [
+    {
+     "id": "i6f",
+     "name": {
+      "ar": "رز بسمتي مبهر",
+      "en": "Spiced Basmati Rice"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "صغير",
+        "en": "Small"
+       },
+       "price": 35
+      },
+      {
+       "label": {
+        "ar": "كبير",
+        "en": "Large"
+       },
+       "price": 60
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i70",
+     "name": {
+      "ar": "شيدر",
+      "en": "Cheddar"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 20
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i71",
+     "name": {
+      "ar": "رانش",
+      "en": "Ranch"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 20
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i72",
+     "name": {
+      "ar": "تاكسس",
+      "en": "Taxes Sauce"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 20
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i73",
+     "name": {
+      "ar": "بافلو",
+      "en": "Buffalo"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 20
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i74",
+     "name": {
+      "ar": "موتزريلا ستيك",
+      "en": "Mozzarella Sticks"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 50
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i75",
+     "name": {
+      "ar": "حلقات بصل",
+      "en": "Onion Rings"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 50
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i76",
+     "name": {
+      "ar": "باكت بطاطس",
+      "en": "Fries Packet"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 30
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i77",
+     "name": {
+      "ar": "باكت تشيز",
+      "en": "Cheese Packet"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 40
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    }
+   ]
+  },
+  {
+   "id": "c95",
+   "section": "cafe",
+   "name": {
+    "ar": "مشروبات ساخنة",
+    "en": "Hot Drinks"
+   },
+   "visible": true,
+   "items": [
+    {
+     "id": "i79",
+     "name": {
+      "ar": "اسبريسو",
+      "en": "Espresso"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "سنجل",
+        "en": "Single"
+       },
+       "price": 50
+      },
+      {
+       "label": {
+        "ar": "دبل",
+        "en": "Double"
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i7a",
+     "name": {
+      "ar": "ميكاتو",
+      "en": "Macchiato"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "سنجل",
+        "en": "Single"
+       },
+       "price": 60
+      },
+      {
+       "label": {
+        "ar": "دبل",
+        "en": "Double"
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i7b",
+     "name": {
+      "ar": "شاي أحمد تي",
+      "en": "Ahmad Tea"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 30
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i7c",
+     "name": {
+      "ar": "شاي أخضر",
+      "en": "Green Tea"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 30
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i7d",
+     "name": {
+      "ar": "شاي",
+      "en": "Tea"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 20
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i7e",
+     "name": {
+      "ar": "ينسون",
+      "en": "Anise"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 20
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i7f",
+     "name": {
+      "ar": "نعناع",
+      "en": "Mint"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 20
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i80",
+     "name": {
+      "ar": "نعناع جنزبيل / قرفة",
+      "en": "Mint Ginger / Cinnamon"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 30
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i81",
+     "name": {
+      "ar": "كركدية",
+      "en": "Hibiscus"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 30
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i82",
+     "name": {
+      "ar": "هوت سيدر",
+      "en": "Hot Cider"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 45
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i83",
+     "name": {
+      "ar": "هواي سيدر",
+      "en": "Hawaii Cider"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 50
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i84",
+     "name": {
+      "ar": "هوت شوكليت",
+      "en": "Hot Chocolate"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 50
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i85",
+     "name": {
+      "ar": "هوت شوكليت مارشميلو",
+      "en": "Hot Chocolate Marshmallow"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 60
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i86",
+     "name": {
+      "ar": "سحلب سادة",
+      "en": "Sahlab Plain"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 40
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i87",
+     "name": {
+      "ar": "سحلب فواكه",
+      "en": "Sahlab Fruit"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i88",
+     "name": {
+      "ar": "سحلب مكسرات + فواكه",
+      "en": "Sahlab Nuts + Fruit"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i89",
+     "name": {
+      "ar": "قهوة تركي",
+      "en": "Turkish Coffee"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 30
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i8a",
+     "name": {
+      "ar": "قهوة تركي دبل",
+      "en": "Turkish Coffee Double"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 60
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i8b",
+     "name": {
+      "ar": "قهوة فرنساوي",
+      "en": "French Coffee"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 50
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i8c",
+     "name": {
+      "ar": "قهوة فرنساوي نوتيلا",
+      "en": "French Coffee Nutella"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 60
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i8d",
+     "name": {
+      "ar": "كورتادو",
+      "en": "Cortado"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 60
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i8e",
+     "name": {
+      "ar": "فلات وايت",
+      "en": "Flat White"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i8f",
+     "name": {
+      "ar": "نسكافيه",
+      "en": "Nescafe"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 50
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i90",
+     "name": {
+      "ar": "كابتشينو",
+      "en": "Cappuccino"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i91",
+     "name": {
+      "ar": "كابتشينو مارشميلو",
+      "en": "Cappuccino Marshmallow"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 90
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i92",
+     "name": {
+      "ar": "موكا وايت تشوكليت",
+      "en": "White Chocolate Mocha"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i93",
+     "name": {
+      "ar": "لاتيه",
+      "en": "Latte"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i94",
+     "name": {
+      "ar": "سبانش لاتيه",
+      "en": "Spanish Latte"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    }
+   ]
+  },
+  {
+   "id": "ca0",
+   "section": "cafe",
+   "name": {
+    "ar": "ميلك شيك",
+    "en": "Milkshake"
+   },
+   "visible": true,
+   "items": [
+    {
+     "id": "i96",
+     "name": {
+      "ar": "ميلك مانجو",
+      "en": "Mango Milkshake"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i97",
+     "name": {
+      "ar": "ميلك فراولة",
+      "en": "Strawberry Milkshake"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i98",
+     "name": {
+      "ar": "ميلك بلوبيري",
+      "en": "Blueberry Milkshake"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i99",
+     "name": {
+      "ar": "ميلك تشوكليت",
+      "en": "Chocolate Milkshake"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i9a",
+     "name": {
+      "ar": "ميلك أوريو",
+      "en": "Oreo Milkshake"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i9b",
+     "name": {
+      "ar": "ميلك خوخ",
+      "en": "Peach Milkshake"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i9c",
+     "name": {
+      "ar": "ميلك كراميل",
+      "en": "Caramel Milkshake"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i9d",
+     "name": {
+      "ar": "ميلك وايت",
+      "en": "White Milkshake"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i9e",
+     "name": {
+      "ar": "ميلك بيستاشيو",
+      "en": "Pistachio Milkshake"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 90
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "i9f",
+     "name": {
+      "ar": "ميلك لوتس",
+      "en": "Lotus Milkshake"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    }
+   ]
+  },
+  {
+   "id": "caa",
+   "section": "cafe",
+   "name": {
+    "ar": "موخيتو",
+    "en": "Mojito"
+   },
+   "visible": true,
+   "items": [
+    {
+     "id": "ia1",
+     "name": {
+      "ar": "كلاسيك",
+      "en": "Classic"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ia2",
+     "name": {
+      "ar": "صن شاين",
+      "en": "Sunshine"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ia3",
+     "name": {
+      "ar": "صن رايز",
+      "en": "Sunrise"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ia4",
+     "name": {
+      "ar": "بلو سكاي",
+      "en": "Blue Sky"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ia5",
+     "name": {
+      "ar": "موخيتو خوخ",
+      "en": "Peach Mojito"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ia6",
+     "name": {
+      "ar": "موخيتو بلوبيري",
+      "en": "Blueberry Mojito"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ia7",
+     "name": {
+      "ar": "موخيتو باشون فروت",
+      "en": "Passion Fruit Mojito"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ia8",
+     "name": {
+      "ar": "موخيتو ريد بول",
+      "en": "Red Bull Mojito"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 110
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ia9",
+     "name": {
+      "ar": "موخيتو توت",
+      "en": "Berry Mojito"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    }
+   ]
+  },
+  {
+   "id": "cb4",
+   "section": "cafe",
+   "name": {
+    "ar": "اسموزي",
+    "en": "Smoothies"
+   },
+   "visible": true,
+   "items": [
+    {
+     "id": "iab",
+     "name": {
+      "ar": "اسموزي مانجو",
+      "en": "Mango Smoothie"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "iac",
+     "name": {
+      "ar": "اسموزي فراولة",
+      "en": "Strawberry Smoothie"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "iad",
+     "name": {
+      "ar": "اسموزي بلوبيري",
+      "en": "Blueberry Smoothie"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "iae",
+     "name": {
+      "ar": "اسموزي كيوي",
+      "en": "Kiwi Smoothie"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "iaf",
+     "name": {
+      "ar": "اسموزي ليمون نعناع",
+      "en": "Lemon Mint Smoothie"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ib0",
+     "name": {
+      "ar": "اسموزي خوخ",
+      "en": "Peach Smoothie"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ib1",
+     "name": {
+      "ar": "اسموزي تفاح",
+      "en": "Apple Smoothie"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ib2",
+     "name": {
+      "ar": "اسموزي أناناس",
+      "en": "Pineapple Smoothie"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ib3",
+     "name": {
+      "ar": "اسموزي باشون فروت",
+      "en": "Passion Fruit Smoothie"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    }
+   ]
+  },
+  {
+   "id": "cc0",
+   "section": "cafe",
+   "name": {
+    "ar": "عصائر فريش",
+    "en": "Fresh Juice"
+   },
+   "visible": true,
+   "items": [
+    {
+     "id": "ib5",
+     "name": {
+      "ar": "مانجو",
+      "en": "Mango"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ib6",
+     "name": {
+      "ar": "جوافة",
+      "en": "Guava"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ib7",
+     "name": {
+      "ar": "فراولة",
+      "en": "Strawberry"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ib8",
+     "name": {
+      "ar": "برتقال",
+      "en": "Orange"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ib9",
+     "name": {
+      "ar": "موز حليب",
+      "en": "Banana Milk"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "iba",
+     "name": {
+      "ar": "كيوي",
+      "en": "Kiwi"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 100
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ibb",
+     "name": {
+      "ar": "أفوكادو",
+      "en": "Avocado"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 120
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ibc",
+     "name": {
+      "ar": "ليمون",
+      "en": "Lemon"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 50
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ibd",
+     "name": {
+      "ar": "ليمون نعناع",
+      "en": "Lemon Mint"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 50
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ibe",
+     "name": {
+      "ar": "بلح حليب",
+      "en": "Dates & Milk"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 100
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ibf",
+     "name": {
+      "ar": "بلح حليب مكسرات",
+      "en": "Dates, Milk & Nuts"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 90
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    }
+   ]
+  },
+  {
+   "id": "ccf",
+   "section": "cafe",
+   "name": {
+    "ar": "فرابية وفرابتشينو",
+    "en": "Frappe & Frappuccino"
+   },
+   "visible": true,
+   "items": [
+    {
+     "id": "ic1",
+     "name": {
+      "ar": "فرابية تشوكليت",
+      "en": "Chocolate Frappe"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ic2",
+     "name": {
+      "ar": "فرابية كراميلا",
+      "en": "Caramel Frappe"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ic3",
+     "name": {
+      "ar": "فرابية نوتيلا",
+      "en": "Nutella Frappe"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ic4",
+     "name": {
+      "ar": "فرابية لوتس",
+      "en": "Lotus Frappe"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ic5",
+     "name": {
+      "ar": "فرابية وايت",
+      "en": "White Frappe"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ic6",
+     "name": {
+      "ar": "فرابية أوريو",
+      "en": "Oreo Frappe"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ic7",
+     "name": {
+      "ar": "فرابية هوهوز",
+      "en": "Hohos Frappe"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ic8",
+     "name": {
+      "ar": "فرابتشينو تشوكليت",
+      "en": "Chocolate Frappuccino"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ic9",
+     "name": {
+      "ar": "فرابتشينو كراميلا",
+      "en": "Caramel Frappuccino"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ica",
+     "name": {
+      "ar": "فرابتشينو نوتيلا",
+      "en": "Nutella Frappuccino"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "icb",
+     "name": {
+      "ar": "فرابتشينو لوتس",
+      "en": "Lotus Frappuccino"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "icc",
+     "name": {
+      "ar": "فرابتشينو وايت",
+      "en": "White Frappuccino"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "icd",
+     "name": {
+      "ar": "فرابتشينو أوريو",
+      "en": "Oreo Frappuccino"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ice",
+     "name": {
+      "ar": "فرابتشينو هوهوز",
+      "en": "Hohos Frappuccino"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    }
+   ]
+  },
+  {
+   "id": "cda",
+   "section": "cafe",
+   "name": {
+    "ar": "مشروبات غازية",
+    "en": "Soft Drinks"
+   },
+   "visible": true,
+   "items": [
+    {
+     "id": "id0",
+     "name": {
+      "ar": "مياه",
+      "en": "Water"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 10
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "id1",
+     "name": {
+      "ar": "سفن",
+      "en": "Seven Up"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 40
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "id2",
+     "name": {
+      "ar": "كوكاكولا",
+      "en": "Coca-Cola"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 40
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "id3",
+     "name": {
+      "ar": "فانتا",
+      "en": "Fanta"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 40
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "id4",
+     "name": {
+      "ar": "تويست",
+      "en": "Twist"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 40
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "id5",
+     "name": {
+      "ar": "استنج",
+      "en": "Sting"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 40
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "id6",
+     "name": {
+      "ar": "مونستر",
+      "en": "Monster"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "id7",
+     "name": {
+      "ar": "ريد بول",
+      "en": "Red Bull"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "id8",
+     "name": {
+      "ar": "شويبس",
+      "en": "Schweppes"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 40
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "id9",
+     "name": {
+      "ar": "فيروز",
+      "en": "Fayrouz"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 40
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    }
+   ]
+  },
+  {
+   "id": "ce1",
+   "section": "cafe",
+   "name": {
+    "ar": "المرطبات",
+    "en": "Cold Treats"
+   },
+   "visible": true,
+   "items": [
+    {
+     "id": "idb",
+     "name": {
+      "ar": "سلطة فواكه",
+      "en": "Fruit Salad"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "idc",
+     "name": {
+      "ar": "سلطة فواكه آيس كريم",
+      "en": "Fruit Salad with Ice Cream"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "idd",
+     "name": {
+      "ar": "سلطة فواكه لقاء",
+      "en": "Leqaa Fruit Salad"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ide",
+     "name": {
+      "ar": "آيس كريم فواكه",
+      "en": "Fruit Ice Cream"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 40
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "idf",
+     "name": {
+      "ar": "آيس كريم ميكس",
+      "en": "Mixed Ice Cream"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 50
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ie0",
+     "name": {
+      "ar": "آيس كريم كيت كات",
+      "en": "Kit Kat Ice Cream"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    }
+   ]
+  },
+  {
+   "id": "cee",
+   "section": "cafe",
+   "name": {
+    "ar": "الحلويات",
+    "en": "Desserts"
+   },
+   "visible": true,
+   "items": [
+    {
+     "id": "ie2",
+     "name": {
+      "ar": "وافل نوتيلا",
+      "en": "Nutella Waffle"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ie3",
+     "name": {
+      "ar": "وافل بيستاشيو",
+      "en": "Pistachio Waffle"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ie4",
+     "name": {
+      "ar": "وافل كراميل",
+      "en": "Caramel Waffle"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ie5",
+     "name": {
+      "ar": "وافل ميكس",
+      "en": "Mixed Waffle"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 100
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ie6",
+     "name": {
+      "ar": "بان كيك نوتيلا",
+      "en": "Nutella Pancake"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ie7",
+     "name": {
+      "ar": "بان كيك بيستاشيو",
+      "en": "Pistachio Pancake"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 80
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ie8",
+     "name": {
+      "ar": "بان كيك كراميل",
+      "en": "Caramel Pancake"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ie9",
+     "name": {
+      "ar": "بان كيك ميكس",
+      "en": "Mixed Pancake"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 100
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "iea",
+     "name": {
+      "ar": "تشيز كيك نوتيلا",
+      "en": "Nutella Cheesecake"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ieb",
+     "name": {
+      "ar": "تشيز كيك فراولة",
+      "en": "Strawberry Cheesecake"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 70
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "iec",
+     "name": {
+      "ar": "ميني تورتة",
+      "en": "Mini Cake"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 120
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    },
+    {
+     "id": "ied",
+     "name": {
+      "ar": "ميني تورتة + إضافات",
+      "en": "Mini Cake + Extras"
+     },
+     "desc": {
+      "ar": "",
+      "en": ""
+     },
+     "image": "",
+     "prices": [
+      {
+       "label": {
+        "ar": "",
+        "en": ""
+       },
+       "price": 150
+      }
+     ],
+     "badge": "",
+     "available": true,
+     "visible": true
+    }
+   ]
+  }
+ ]
+}

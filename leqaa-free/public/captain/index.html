@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#130D0B">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="كابتن لقاء">
+<title>شاشة الكابتن | لقاء</title>
+<link rel="manifest" href="/captain/manifest.webmanifest">
+<link rel="icon" href="/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/icon-192.png">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Reem+Kufi:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/captain/captain.css">
+</head>
+<body>
+
+<section id="login" class="login">
+  <form id="login-form" class="login-card">
+    <img src="/logo.webp" width="120" height="120" alt="لقاء" class="login-logo">
+    <h1>شاشة الكابتن</h1>
+    <label for="em">البريد الإلكتروني</label>
+    <input id="em" type="email" autocomplete="username" required dir="ltr">
+    <label for="pw">كلمة المرور</label>
+    <input id="pw" type="password" autocomplete="current-password" required>
+    <p class="err" id="login-err" role="alert"></p>
+    <p class="warn" id="setup-warn" hidden>الموقع غير متصل بقاعدة البيانات بعد. أضف بيانات Supabase في ملف config.js.</p>
+    <button class="btn primary" type="submit">دخول</button>
+  </form>
+</section>
+
+<div id="app" hidden>
+  <header class="bar">
+    <div class="bar-title">
+      <img src="/favicon.png" width="36" height="36" alt="">
+      <div>
+        <strong>طلبات الطاولات</strong>
+        <span id="conn" class="conn">...</span>
+      </div>
+    </div>
+    <div class="bar-actions">
+      <button class="btn small" id="sound" type="button"></button>
+      <button class="btn small ghost" id="logout" type="button">خروج</button>
+    </div>
+  </header>
+
+  <section class="setup" id="setup" hidden>
+    <div id="ios-help" class="card" hidden>
+      <h2>لتصلك الإشعارات على الآيفون</h2>
+      <ol>
+        <li>اضغط زر المشاركة <b>⬆︎</b> في أسفل Safari.</li>
+        <li>اختر <b>إضافة إلى الشاشة الرئيسية</b>.</li>
+        <li>افتح التطبيق من الشاشة الرئيسية وسجل الدخول، ثم اضغط <b>تفعيل إشعارات الهاتف</b>.</li>
+      </ol>
+    </div>
+    <div class="push-row">
+      <button class="btn primary" id="push" type="button"></button>
+      <button class="btn small" id="push-test" type="button" hidden>تجربة الإشعار</button>
+      <button class="btn small" id="install" type="button" hidden>تثبيت التطبيق</button>
+    </div>
+    <p class="hint" id="push-msg" role="status"></p>
+  </section>
+
+  <p class="banner" id="banner" role="status" hidden></p>
+  <main>
+    <p class="count" id="count"></p>
+    <div id="orders" class="orders"></div>
+    <p class="empty" id="empty" hidden>لا توجد طلبات الآن. تظهر الطلبات هنا فور إرسالها وتختفي بعد 30 دقيقة.</p>
+  </main>
+</div>
+
+<script>window.LEQAA_SESSION_KEY = 'leqaa.captain.session';</script>
+<script src="/config.js"></script>
+<script src="/api.js"></script>
+<script src="/captain/captain.js"></script>
+</body>
+</html>

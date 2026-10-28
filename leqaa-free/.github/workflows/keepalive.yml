@@ -1,0 +1,15 @@
+# Optional. Pings Supabase twice a week so a free project is never paused for inactivity.
+# Needs two repository secrets: SUPABASE_URL and SUPABASE_ANON_KEY (Settings > Secrets and variables > Actions).
+name: keep-supabase-awake
+on:
+  schedule:
+    - cron: "17 6 * * 1,4"
+  workflow_dispatch:
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Read the menu once
+        run: |
+          curl -fsS "${{ secrets.SUPABASE_URL }}/rest/v1/menu?id=eq.1&select=id" \
+            -H "apikey: ${{ secrets.SUPABASE_ANON_KEY }}"
